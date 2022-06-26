@@ -15,6 +15,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
-   echo "Sip";
+   echo "Sip jos tenan";
     return $request->user();
 });
